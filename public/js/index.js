@@ -20,4 +20,9 @@ $(document).ready(function() {
     $('#mongoIcon').click(function() {
         $('#mongoModal').modal('open');
     });
+
+    $('#navBar').pushpin({
+        top: 0,
+        offset: 0
+    });
 });

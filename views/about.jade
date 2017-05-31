@@ -1,2 +1,47 @@
 include header
     include navbar
+
+.row
+    .col.s12.m3(style='margin-left: 90px; margin-top: 100px')
+        h5.header About Me
+        .card.horizontal.hoverable.small
+            .card-image
+                img(src='/img/lcastro.jpg')
+            .card-stacked
+                .card-content
+                    p I am currently pursuing my Bachelor's Degree in Computer Engineering at the University of South Florida in Tampa, FL
+                .card-action
+                    p(style='color: red') Luis Castro
+    .col.s12.m4(style='margin-left: 90px; margin-top: 100px')
+        h5.header Experience
+        .card.horizontal.hoverable.medium
+            .card-image
+                img(src='/img/coding.png')
+            .card-stacked
+                .card-content
+                    p In my internship, I focus on web development using Node.js and various APIs for making calls through our site. In addition, I have experience using EC2 instances and S3 buckets from AWS.
+                    p We handle large databases through MongoDB (which uses NoSQL)
+                .card-action
+                    p(style='color: red') Luis Castro
+    .col.s12.m3(style='margin-left: 90px; margin-top: 100px')
+        h5.header Education
+        .card.horizontal.hoverable.small
+            .card-image
+                img.valign(src='/img/USF.png', style='height: auto; margin-top: 25%')
+            .card-stacked
+                .card-content
+                    p I am currently pursuing my Bachelor's Degree in Computer Engineering at the University of South Florida in Tampa, FL.
+                .card-action
+                    p(style='color: red') Luis Castro
+
+.row
+    .col.s3
+        ul.tabs
+            li.tab.col.s3
+                a(href='#test1') Test 1
+            li.tab.col.s3
+                a.active(href='#test2') Test 2
+            li.tab.col.s3
+                a(href='#test3') Test 3
+            li.tab.col.s3
+                a(href='#test4') Test 4

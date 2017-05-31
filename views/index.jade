@@ -1,42 +1,44 @@
 include header
-    
     include navbar
-    body(style='background-color: #7A86AD')
-    .section-white(style='background-color: #7A86AD')
-        h3(align='middle') Computer Engineer | Web Developer
+
+    body(style='background-color: black')
+    //-.section-white(style='background-color: #7A86AD')
+    .section-white(style='background-color: black')
+        h4(align='middle') Computer Engineer | Web Developer
     .parallax-container.z-depth-3
         .parallax
             img(src='img/img1.jpg')
-    .section-white(style='background-color: #7A86AD')
+    //-.section-white(style='background-color: #7A86AD')
+    .section-white(style='background-color: black')
         .row.container
-            h2(align='middle') Skills
+            h4(align='middle') Skills
                 .row
                     br
                     .col.s4.center-align
                         img#nodeIcon(href='#', src='/img/node.png', height='120px', align='middle', onmouseover='')
-                        p(style='font-size:14px') Web Development with Node.js
+                        p(style='font-size:14px; color: white') Web Development with Node.js
                     .col.s4.center-align
                         img#CIcon(src='/img/C++.png', style='height: 120px', align='middle')
-                        p(style='font-size:14px') Data structures and algorithmic analysis with C++
+                        p(style='font-size:14px; color: white') Data structures and algorithmic analysis with C++
                     .col.s4.center-align
                         img#mongoIcon(src='/img/mongoDB.png', style='height: 120px', align='middle')
-                        p(style='font-size:14px') Database design and maintenance through MongoDB
+                        p(style='font-size:14px; color: white') Database design and maintenance through MongoDB
     .parallax-container.z-depth-3
         .parallax
             img(src='img/mustang-shelby.jpg')
-    .section-white(style='background-color: #7A86AD')
+    .section-white(style='background-color: black')
         .row.container
-            h2.center-align Portfolio
+            h4.center-align Portfolio
                 .row
                     br
                     .col.s6.center-align
                         a(href='https://www.linkedin.com/in/luis-castro-b1250475/', target='_blank')
                             img(src='/img/linkedin.png', height='120px')
-                        p(style='font-size:14px') LinkedIn Profile
+                        p(style='font-size:14px; color: white') LinkedIn Profile
                     .col.s6.center-align
                         a(href='https://github.com/luigi741', target='_blank')
-                            img(src='/img/github.svg', height='120px', align='middle')
-                        p(style='font-size:14px') GitHub Profile
+                            img(src='/img/github-white.png', height='120px', align='middle')
+                        p(style='font-size:14px; color: white') GitHub Profile
 
     .parallax-container.z-depth-3
         .parallax
@@ -72,6 +74,6 @@ include header
             a.waves-effect.btn(href='https://www.mongodb.com/', style='margin: 5px', target='_blank') Go to Site
                 i.material-icons.right link
             
-    script(src='/js/index.js')
+script(src='/js/index.js')
     
 include footer
