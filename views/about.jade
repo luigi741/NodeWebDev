@@ -1,2 +1,71 @@
 include header
-    include navbar
+
+    nav#navBar
+        .nav-fixed.typewriter
+            ul(id='nav-mobile', class='left hide-on-med-and-down')
+                li
+                    a(href='/', style='margin-left: 10px; font-family: Monaco; color: #41C900') luigi@luigi-IdeaPad-Y700:~$ 
+                li
+                    h1(style='margin-left: 1px; font-family: Monaco; color: #41C900; font-size: 16px; margin-top: 22px') whoami
+            ul(id='nav-mobile', class='right hide-on-med-and-down')
+                li
+                    a(href='about', style='color: #41C900') About Me
+                li
+                    a(href='contact', style='color: #41C900') Contact Info
+    .row
+        .col.s12.m3(style='margin-left: 90px; margin-top: 100px')
+            h5.header About Me
+            .card.horizontal.hoverable.small(style='background-color: #ACC4FA')
+                .card-image
+                    img(src='/img/lcastro.jpg')
+                .card-stacked
+                    .card-content
+                        p I am currently pursuing my Bachelor's Degree in Computer Engineering at the University of South Florida in Tampa, FL
+                    .card-action
+                        p Luis Castro
+                            i.material-icons.left person
+        .col.s12.m4(style='margin-left: 90px; margin-top: 100px')
+            h5.header Experience
+            .card.horizontal.hoverable.medium(style='background-color: #ACC4FA')
+                .card-image
+                    img(src='/img/coding.png')
+                .card-stacked
+                    .card-content
+                        p In my internship, I focus on web development using Node.js and various APIs for making calls through our site. In addition, I have experience using EC2 instances and S3 buckets from AWS.
+                        p We handle large databases through MongoDB (which uses NoSQL)
+                    .card-action
+                        p Web Developer
+                            i.material-icons.left work
+        .col.s12.m3(style='margin-left: 90px; margin-top: 100px')
+            h5.header Education
+            .card.horizontal.hoverable.small(style='background-color: #ACC4FA')
+                .card-image
+                    img.valign(src='/img/USF.png', style='height: auto; margin-top: 25%')
+                .card-stacked
+                    .card-content
+                        p I am currently pursuing my Bachelor's Degree in Computer Engineering at the University of South Florida in Tampa, FL.
+                    .card-action
+                        p USF
+                            i.material-icons.left school
+
+//- .row
+//-     .col.s9
+//-         ul.tabs
+//-             li.tab.col.s2
+//-                 a.waves-effect.waves-red(href='#test1') Test 1
+//-             li.tab.col.s2
+//-                 a.waves-effect.waves-red(href='#test2') Test 2
+//-             li.tab.col.s2
+//-                 a.waves-effect.waves-red(href='#test3') Test 3
+//- .container        
+//-     #test1.col.s12
+//-         //-img(src='/img/img1.jpg', style='width: 50%; margin-left: 200px', align='center')
+//-         h1 Resume
+//-     #test2.col.s12.red
+//-         br
+//-         br
+//-     #test3.col.s12.green
+//-         br
+//-         br
+
+include footer
