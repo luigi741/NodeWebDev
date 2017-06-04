@@ -22,11 +22,24 @@ h2 {
     font-family: "Ubuntu"
 }
 
+.light-grey {
+    background-color: #828384
+}
+
+/*.tabs:nth-child(1) {
+    margin-left: 40%;
+}*/
+
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 95%;
+}
+
 .center {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
-    padding: 10px;    
+    padding: 10px;
 }
 
 .typewriter h1 {

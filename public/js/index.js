@@ -21,8 +21,8 @@ $(document).ready(function() {
         $('#mongoModal').modal('open');
     });
 
-    $('#navBar').pushpin({
-        top: 0,
-        offset: 0
-    });
+    // $('#navBar').pushpin({
+    //     top: 0,
+    //     offset: 0
+    // });
 });
